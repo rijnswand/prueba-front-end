@@ -10,6 +10,7 @@ import 'swiper/swiper-bundle.css';
 
 var menu = ['Slide 1', 'Slide 2', 'Slide 3']
 var mySwiper = new Swiper ('.swiper-container', {
+    lazy:true,
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',

@@ -9,8 +9,20 @@
 	@include display(flex);
 }
 
-$bg-color: rgba(0,0,0,0.8);
+$bg-color: rgba(0,0,0,0.2);
+$hover-bg: rgba(0,0,0,0.8);
+$font-color: rgba(255,255,255,1);
+$hover-font-color: rgba(0,0,0,1);
 
 .swiper-pagination-bullet {
 	background-color: $bg-color;
+	color: $font-color;
+	&:hover{
+		background-color:$hover-bg;
+	};
+}
+.swiper-pagination-bullet-active {
+	&:hover {
+		background-color: $hover-bg;
+	};
 }

@@ -10,10 +10,13 @@
 @include font('Roboto','/build/fonts/Roboto-Regular')
 @include font('Roboto-Slab','/build/fonts/RobotoSlab-VariableFont_wght')
 
+$roboto-slab: 'Roboto Slab', serif;
+$roboto: 'Roboto', sans;
+
 body {
-	font-family: Roboto;
+	font-family: $roboto;
 }
 
 .swiper-pagination {
-	font-family: Roboto-Slab;
+	font-family: $roboto-slab;
 }
