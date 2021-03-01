@@ -16,8 +16,9 @@
         "node-sass": "^4.0.0"
     },
     "dependencies": {
-        "jquery": "^3.5.1",
         "bootstrap": "4.3.1",
-        "popper.js": "1.16.1"
+        "jquery": "^3.5.1",
+        "popper.js": "1.16.1",
+        "swiper": "^6.4.15"
     }
 }

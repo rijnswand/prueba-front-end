@@ -1,0 +1,16 @@
+@mixin display($flexproperty) {
+	-webkit-box: $flexproperty;
+	-ms-flexbox: $flexproperty;
+	-webkit-flex: $flexproperty;
+	display: $flexproperty;
+}
+
+.swiper-slide {
+	@include display(flex);
+}
+
+$bg-color: rgba(0,0,0,0.8);
+
+.swiper-pagination-bullet {
+	background-color: $bg-color;
+}
